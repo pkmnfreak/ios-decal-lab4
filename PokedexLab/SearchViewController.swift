@@ -18,7 +18,6 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
         collectionViewOutlet.delegate = self
         collectionViewOutlet.dataSource = self
         pokemonArray = PokemonGenerator.getPokemonArray()
-
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
